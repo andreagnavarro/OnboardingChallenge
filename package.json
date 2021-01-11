@@ -1,0 +1,42 @@
+{
+  "name": "onboarding_challenge",
+  "version": "1.0.0",
+  "description": "Proof of Concept of Automation framework for both front and backend testing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "Chrome_tests": "testcafe chrome tests/.",
+    "Safari_tests": "testcafe safari tests/.",
+    "Browserstack_tests": "testcafe 'browserstack:chrome@87.0:OS X Catalina','browserstack:safari@13.1:OS X Catalina' tests/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreagnavarro/OnboardingChallenge.git"
+  },
+  "keywords": [
+    "todoist"
+  ],
+  "author": "Andrea Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreagnavarro/OnboardingChallenge/issues"
+  },
+  "homepage": "https://github.com/andreagnavarro/OnboardingChallenge#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.16.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  }
+}
