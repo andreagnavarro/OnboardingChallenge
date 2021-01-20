@@ -6,7 +6,9 @@ The tests can either be run with Chrome or with Safari
 ## Prerequisites
 1. Google chrome and Safari web browsers must be installed 
 2. Run the command `npm install`
-3. environment variables
+3. Run the command `npm install testcafe testcafe-reporter-xunit`
+4. Run the command `npm i testcafe-browser-provider-browserstack`
+5. environment variables
 
 ## Steps
 1. Clone the repository with the following command:
