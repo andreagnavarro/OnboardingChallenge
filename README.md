@@ -18,8 +18,8 @@ The tests can either be run with Chrome or with Safari
 `npm run Safari_tests`
 4. To run with Browserstack use the following command:
 `npm run Browserstack_tests`
-* This will run the tests with chrome@87.0:OS X Catalina, and safari@13.1:OS X Catalina
-5. To enable CI pipeline, commit the change and it will automatically start. 
+* This will run the tests with chrome@87.0:OS X Catalina, and safari@13.1:OS X Catalina.
+5. To enable CI pipeline, commit the change and it will automatically start it
 
 ## Results
 1. There will be an html file generated with the results of the tests inside the Reports folder
