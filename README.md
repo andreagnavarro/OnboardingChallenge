@@ -36,4 +36,4 @@ The tests can either be run with Chrome or with Safari
 5. Create 10 new tasks: Created 10 new tasks on the start page
    - Expected: Validates the tasks are created correctly.
 
-   Test
+   
